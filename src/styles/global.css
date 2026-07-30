@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Fraenkisch';
+  src: url('/fonts/Fraenkisch.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg-color: #0a0a0a;
+  --heading-color: #f2ead3;
+  --text-color: #a39e8f;
+  --accent-color: rgba(242, 234, 211, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
+  font-weight: 400;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--heading-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-color);
+  transition: border-color 0.4s ease, opacity 0.4s ease;
+  font-weight: 400;
+}
+
+a:hover {
+  border-bottom-color: var(--heading-color);
+  opacity: 0.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fraenkisch', serif;
+  color: var(--heading-color);
+  font-weight: 400;
+}
