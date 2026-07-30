@@ -1,43 +1,20 @@
-# Astro Starter Kit: Minimal
+# Austria Atmosphere
 
-```sh
-pnpm create astro@latest -- --template minimal
-```
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ba5bc504-cfc2-4b11-96ba-460e076acc22/deploy-status)](https://app.netlify.com/projects/austria-atmosphere/deploys)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Growing the open web in Austria. We are a community dedicated to open standards, decentralization, and the AT Protocol.
 
-## 🚀 Project Structure
+## About
 
-Inside of your Astro project, you'll see the following folders and files:
+We build around the AT Protocol, a new technology for social networks that gives users true ownership over their data and allows different platforms to communicate directly (powering applications like Bluesky).
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Community & Events
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- We organize meetups, sometimes gathering in Vienna, and encourage people to host gatherings everywhere in Austria.
+- Want to host your own event? Ping us if you need visibility, and we will create an event page for you on [atmo.rsvp](https://atmo.rsvp/p/austria-atmosphe.re).
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Links
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- [What is AT Protocol?](https://atproto.com/guides/faq)
+- [mu.social profile](https://mu.social/profile/austria-atmosphe.re)
